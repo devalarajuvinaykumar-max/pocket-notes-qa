@@ -1,0 +1,4 @@
+A Python virtual environment isolates project dependencies from the global system Python.
+To create one on Windows, run: python -m venv .venv
+To activate it in PowerShell, run: .\.venv\Scripts\Activate.ps1
+Always add .venv/ to .gitignore so you do not upload gigabytes of libraries to GitHub.
